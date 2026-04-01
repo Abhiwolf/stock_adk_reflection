@@ -1,0 +1,11 @@
+langgraph
+langchain
+langchain-google-genai
+langchain-openai
+yfinance
+pandas
+numpy
+ta
+python-dotenv
+requests
+loguru
