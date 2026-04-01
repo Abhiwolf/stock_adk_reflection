@@ -8,7 +8,7 @@ from loguru import logger
 load_dotenv()
 
 # OpenAI-specific Hawkeye config (matches agent_backend/app/adk/config/openai.py)
-OPENAI_BASE_URL = os.getenv("HAWKEYE_OPENAI_BASE_URL", "https://apis-internal-dev.lowes.com/v1")
+OPENAI_BASE_URL = os.getenv("HAWKEYE_OPENAI_BASE_URL", "")
 OPENAI_OAUTH_URL = f"{OPENAI_BASE_URL}/oauthprovider/oauth2/token"
 OPENAI_CLIENT_ID = os.getenv("HAWKEYE_OPENAI_CLIENT_ID", "")
 OPENAI_CLIENT_SECRET = os.getenv("HAWKEYE_OPENAI_CLIENT_SECRET", "")
